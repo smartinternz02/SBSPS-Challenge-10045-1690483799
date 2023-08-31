@@ -1,0 +1,91 @@
+/* Reset some default styles */
+body, h1, h2, img {
+    margin: 0;
+    padding: 0rem;
+    border: 0;
+    text-align: center;
+    
+    
+}
+p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+ 
+
+}
+
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    background-image: url("../images/about.jpg");
+    background-size: cover;
+    color: rgb(249, 242, 242);
+}
+
+header {
+    background-color: #13dbcb;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: #eee;
+}
+
+main {
+    padding: 2rem;
+}
+
+.project-info {
+    margin-bottom: 2rem;
+}
+
+.project-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.project-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.project-image img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding-top: 100rem;
+    padding: 1rem 0;
+    background-color: #11bfda;
+    color: #fff;
+}
+/* ... Your existing styles ... */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+}
+
+main {
+    flex: 1; /* Allow the main content to expand and fill available space */
+}
+
+footer {
+    flex-shrink: 0; /* Prevent footer from shrinking */
+}
